@@ -1,1 +1,22 @@
 @charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) { /* TABLET */
+    section {
+        width: 370px;
+        height: 65vh;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) { /*DESKTOP */
+    section {
+        width: 500px;
+        height: 65vh;
+    }
+}
+
+@media screen and (min-width: 1200px) { /* TELAS GRANDES */
+    section {
+        width: 500px;
+        height: 65vh;
+    }
+}
